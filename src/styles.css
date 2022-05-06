@@ -48,12 +48,12 @@ nav {
 }
 .location {
   position: relative;
-  margin-left: 100px;
+  margin-left: 200px;
   top: -160px;
 
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: bolder;
   font-size: 10.24px;
   line-height: 12px;
   letter-spacing: 0.17em;
@@ -62,7 +62,7 @@ nav {
 }
 .url {
   position: relative;
-
+  margin-left: 20px;
   top: -160px;
 
   font-family: "Inter";
@@ -80,11 +80,11 @@ nav {
   position: relative;
 
   top: -155px;
-  margin-left: 95px;
+  margin-left: 200px;
 
   font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 25px;
   line-height: 30px;
 
@@ -93,7 +93,7 @@ nav {
 .date {
   position: relative;
   top: -155px;
-  margin-left: 95px;
+  margin-left: 200px;
 
   font-family: "Inter";
   font-style: normal;
@@ -107,8 +107,7 @@ nav {
   position: relative;
   width: 326px;
   top: -155px;
-  margin-left: 95px;
-  float: start;
+  margin-left: 200px;
 
   font-family: "Inter";
   font-style: normal;
@@ -121,4 +120,17 @@ nav {
 }
 .fa-location-dot {
   color: #f55a5a;
+}
+.fa-earth-americas {
+  margin-right: 20px;
+  margin-left: -40px;
+}
+hr {
+  margin-top: -100px;
+  margin-left: 30px;
+  width: 500px;
+  opacity: 20%;
+}
+.main--content {
+  margin-bottom: 10px;
 }

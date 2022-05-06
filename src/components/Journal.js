@@ -4,7 +4,7 @@ export default function journal(props) {
   return (
     <div>
       <img src={props.data.imageUrl} className="image" />
-      <div>
+      <div className="main--content">
         <span className="location">
           <i class="fa-solid fa-location-dot"></i>
           {props.data.location}
@@ -14,10 +14,9 @@ export default function journal(props) {
         <span className="date">
           {props.data.startDate}-{props.data.endDate}
         </span>
-
-        <p className="content">{props.data.description}</p>
-        <hr />
       </div>
+      <p className="content">{props.data.description}</p>
+      <hr />
     </div>
   );
 }
